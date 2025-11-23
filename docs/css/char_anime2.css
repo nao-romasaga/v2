@@ -1,0 +1,624 @@
+.dot_cat {    background:url(https://romasagatool.com/img/dot/ID36a46.webp);}
+.dot_poruka {    background:url(https://romasagatool.com/img/dot/IDad5d4.webp);}
+.dot_liz {    background:url(https://romasagatool.com/img/dot/IDad638.webp);}
+.dot_yuki {    background: url(https://romasagatool.com/img/dot/ID38dc4.webp) no-repeat;}
+.dot_monika {    background: url(https://romasagatool.com/img/dot/ID3852e.webp) no-repeat;}
+.dot_last {    background: url(https://romasagatool.com/img/dot/ID35c8c.webp) no-repeat;}
+.dot_leon {    background: url(https://romasagatool.com/img/dot/ID35bc4.webp) no-repeat;}
+.dot_hector {    background: url(https://romasagatool.com/img/dot/ID36204.webp) no-repeat;}
+.dot_roza {    background: url(https://romasagatool.com/img/dot/ID641f4.webp) no-repeat;}
+.dot_sofia {    background: url(https://romasagatool.com/img/dot/ID367e0.webp) no-repeat;}
+.dot_gyusu {    background: url(https://romasagatool.com/img/dot/ID4e268.webp) no-repeat;}
+.dot_musume {    background: url(https://romasagatool.com/img/dot/ID37e8c.webp) no-repeat;}
+.dot_jiny {    background: url(https://romasagatool.com/img/dot/ID4e397.webp) no-repeat;}
+.dot_bunei {    background: url(https://romasagatool.com/img/dot/ID3a662.webp) no-repeat;}
+.dot_mini {    background-size: 200px !important;}
+
+
+.dot_mid {
+    background-size: 400px !important;
+}
+.slide1{
+    transition-duration: 1s;
+    margin-top:-100px;
+    margin-left: -200px;
+    animation: slideanime 3s;
+    animation-fill-mode: forwards;
+}
+.slide2{
+    transition-duration: 1s;
+    margin-top:-80px;
+    margin-left: -200px;
+    animation: slideanime2 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes slideanime {
+    0% { transform:translateX(150%)}
+    50% { transform:translateX(50%);}
+    100% { transform:translateX(-50%);}
+}
+@keyframes slideanime2 {
+    0% { transform:translateX(120%)}
+    50% { transform:translateX(60%);}
+    100% { transform:translateX(-20%);}
+}
+.char-aruku {
+    display: inline-block;
+    width: 45px;
+    height: 60px;
+    background-position: 0px 0px;
+    margin: 0 0 0 0px;
+    animation: shomen-aruki 0.7s steps(1) infinite alternate;
+}
+@keyframes shomen-aruki {
+    0% { background-position: -15px -10px;}
+    25% { background-position: -95px -10px;}
+    75% { background-position: -175px -10px;}
+    100% { background-position: -175px -10px;}
+}
+.char-aruku-left {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 0px;
+    animation: left-aruki 0.6s steps(1) infinite alternate;
+}            
+@keyframes left-aruki {
+    0% { background-position: -250px -10px;}
+    25% { background-position: -330px -10px;}
+    75% { background-position: -10px -90px;}
+    100% { background-position: -10px -90px;}
+}
+.char-aruku-wide {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-position: 0px 0px;
+    margin: 0 0 0 0px;
+    animation: shomen-aruki-wide 0.7s steps(1) infinite alternate;
+}            
+@keyframes shomen-aruki-wide {
+    0% { background-position: -5px -10px;}
+    25% { background-position: -85px -10px;}
+    75% { background-position: -165px -10px;}
+    100% { background-position: -165px -10px;}
+}        
+
+.char-hashiri {
+    display: inline-block;
+    width: 50px;
+    height: 55px;
+    background-position: -15px -255px;
+    margin: 0 0 0 0px;
+    animation: hashiri 0.4s steps(1) infinite alternate;
+}            
+@keyframes hashiri {
+    0% { background-position: -15px -255px;}
+    25% { background-position: -95px -255px;}
+    75% { background-position: -175px -255px;}
+    100% { background-position: -175px -255px;}
+}
+.char-hashiri-right {
+    display: inline-block;
+    width: 50px;
+    height: 55px;
+    background-position: -15px -255px;
+    margin: 0 0 0 0px;
+    animation: hashiri-right 0.4s steps(1) infinite alternate;
+}            
+@keyframes hashiri-right {
+    0% { background-position: -15px -255px; transform: scale(-1, 1);}
+    25% { background-position: -95px -255px;}
+    75% { background-position: -175px -255px;}
+    100% { background-position: -175px -255px;}
+}
+
+@media screen and (max-width:340px) {
+    .char-winner {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        margin: 0 0 0 0px;
+        animation: winner 1s steps(1);
+        animation-fill-mode: forwards;
+    }
+    .char-loser {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        margin: 0 0 0 0px;
+        animation: loser 1s steps(1);
+        animation-fill-mode: forwards;
+    }        
+}
+@media screen and (min-width:340px) {
+    .char-winner {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        margin: 0 0 0 0px;
+        animation: winner 1s steps(1);
+        animation-fill-mode: forwards;
+    }
+    .char-loser {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        margin: 0 0 0 0px;
+        animation: loser 1s steps(1);
+        animation-fill-mode: forwards;
+    }            
+}
+
+@keyframes winner {
+     0% { background-position: -10px -90px;} /* 1.1 */
+    10% { background-position: -10px -90px;} /* 1.1 */
+    20% { background-position: -330px -90px;} /* 5,2 */
+    60% { background-position: -90px -90px;} /* 2.2 */
+    70% { background-position: -330px -10px; transform: scale(-1, 1);} /* 5.1 */
+    80% { background-position: -10px -10px; transform: scale(1, 1);} /* 1.1 */
+    90% { background-position: -330px -170px} /* 5.3 */
+    100% { background-position: -330px -170px} /* 5.3 */
+}
+
+@keyframes loser {
+    0% { background-position: -10px -10px;} /* 1.1 */
+    5% { background-position: -10px -10px;} /* 1.1 */
+    10% { background-position: -330px -10px;} /* 5.1 */
+    15% { background-position: -90px -90px;} /* 2.2 */
+    20% { background-position: -330px -10px; transform: scale(-1, 1);} /* 5.1 */
+    25% { background-position: -10px -10px; transform: scale(1, 1);} /* 1.1 */
+    30% { background-position: -330px -10px;} /* 5.1 */
+    35% { background-position: -90px -90px;} /* 2.2 */
+    40% { background-position: -330px -10px; transform: scale(-1, 1);} /* 5.1 */
+    45% { background-position: -10px -10px; transform: scale(1, 1);} /* 1.1 */
+    50% { background-position: -330px -10px;} /* 5.1 */
+    55% { background-position: -90px -90px;} /* 2.2 */
+    60% { background-position: -330px -10px;} /* 5.1 */
+    61% { background-position: -330px -250px} /* 1.1 */
+}
+.char-eisho-mini {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -45px -85px;
+    margin: 0 0 0 0px;
+    animation: eisho-mini 2s steps(1) infinite;
+}
+@keyframes eisho-mini {
+     0% { background-position:  -85px -85px;} /* 3.3 */
+    10% { background-position:  -85px -85px;} /* 3.3 */
+    20% { background-position:  -45px -85px;} /* 2.3 */
+    30% { background-position:  -85px -85px;} /* 3.3 */
+    40% { background-position:  -45px -85px;} /* 3.3 */
+    50% { background-position: -125px -85px;} /* 3.3 */
+}
+.char-eisho {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 0px;
+    animation: eisho 2s steps(1) infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes eisho {
+     0% { background-position: -160px -160px;} /* 3.3 */
+    10% { background-position: -160px -160px;} /* 3.3 */
+    20% { background-position:  -80px -160px;} /* 2.3 */
+    30% { background-position: -160px -160px;} /* 3.3 */
+    40% { background-position:  -80px -160px;} /* 3.3 */
+    50% { background-position: -240px -160px;} /* 3.3 */
+}
+
+.char-tsuki-mini {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -45px -85px;
+    margin: 0 0 0 0px;
+    animation: tsuki-mini 2s steps(1) infinite;
+}
+@keyframes tsuki-mini {
+    0% { background-position:  -165px -5px;} /* 4.3 */
+    15% { background-position:  -165px -45px;} /* 4.2 */
+    30% { background-position:  -165px -5px;} /* 4.3 */
+    45% { background-position:  -165px -45px;} /* 4.2 */
+}
+.char-single-attack-mini {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -45px -85px;
+    margin: 0 0 0 0px;
+    animation: single-attack-mini 2s steps(1) infinite;
+}
+@keyframes single-attack-mini {
+    0% { background-position:  -165px -5px;} /* 4.3 */
+    45% { background-position:  -165px -45px;} /* 4.2 */
+}
+.char-tate-mini {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+    margin: 0 0 0 0px;
+    animation: tate-mini 2s steps(1) infinite;
+}
+@keyframes tate-mini {
+    0% { background-position: -5px -5px;} /* 1.1 */
+    3% { background-position:  -165px -5px;} /* 4.3 */
+    6% { background-position:  -45px -45px;} /* 4.3 */
+    9% { background-position:  -165px -5px; transform: scale(-1, 1);} /* 4.3 */
+    12% { background-position: -5px -5px; transform: scale(1, 1);} /* 1.1 */
+    15% { background-position:  -165px -5px;} /* 4.3 */
+    18% { background-position:  -45px -45px;} /* 4.3 */
+    21% { background-position:  -165px -5px; transform: scale(-1, 1);} /* 4.3 */
+    24% { background-position: -5px -5px; transform: scale(1, 1);} /* 1.1 */
+    27% { background-position:  -165px -5px;} /* 4.3 */
+    30% { background-position:  -45px -45px;} /* 4.3 */
+    33% { background-position:  -165px -5px; transform: scale(-1, 1);} /* 4.3 */
+    36% { background-position: -5px -5px; transform: scale(1, 1);} /* 1.1 */
+    39% { background-position:  -165px -5px;} /* 4.3 */
+    42% { background-position:  -45px -45px;} /* 4.3 */
+    45% { background-position:  -165px -5px; transform: scale(-1, 1);} /* 4.3 */
+    48% { background-position: -5px -5px; transform: scale(1, 1);} /* 1.1 */
+    51% { background-position:  -165px -5px;} /* 4.3 */
+    54% { background-position:  -165px -45px;} /* 4.2 */
+}
+.char-rand-mini {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+    margin: 0 0 0 0px;
+    animation: rand-mini 2s steps(1) infinite;
+}
+
+@keyframes rand-mini {
+    0% { background-position:  -165px -5px;} /* 4.3 */
+    5% { background-position:  -45px -45px; transform: scale(1, 1);} /* 4.3 */
+    10% { background-position:  -165px -5px;} /* 4.3 */
+    15% { background-position: -5px -5px;} /* 1.1 */
+    20% { background-position:  -165px -45px; transform: scale(1, 1);} /* 4.2 */
+
+    40% { background-position:  -165px -5px;} /* 4.3 */
+    45% { background-position:  -45px -45px;} /* 4.3 */
+    50% { background-position:  -165px -5px;} /* 4.3 */
+    55% { background-position: -5px -5px;} /* 1.1 */
+    60% { background-position:  -165px -45px;} /* 4.2 */
+
+
+}
+
+.footer-liz{
+    position: absolute;
+    right: 0;
+    bottom: 0;    
+}
+.char-utau {
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    background-position: -15px -10px;
+    margin: 0 0 0 0px;
+    animation: utau 10s steps(1) infinite;
+}
+@keyframes utau {
+    0% { background-position: -15px -10px;} /* 1.1 */
+    3% { background-position: -175px -10px;} /* 3.1 */
+    6% { background-position: -15px -10px;} /* 1.1 */
+    9% { background-position: -175px -10px;} /* 3.1 */
+    /* 詠唱 解放 */
+    12% { background-position: -95px -170px;} /* 2.3 */
+    15% { background-position: -175px -170px;} /* 3.3 */
+    18% { background-position: -95px -170px;} /* 2.3 */
+    21% { background-position: -175px -170px;} /* 3.3 */
+    24% { background-position: -255px -170px;} /* 4x.3y */
+
+    30% { background-position: -95px -170px; transform: scale(-1, 1);} /* 2.3 */
+    33% { background-position: -175px -170px;} /* 3.3 */
+    36% { background-position: -95px -170px;} /* 2.3 */
+    39% { background-position: -175px -170px;} /* 3.3 */
+    42% { background-position: -255px -170px;} /* 4x.3y */
+    /* 走り */
+    48% { background-position: -15px -250px;} /* 1.4 */
+    50% { background-position: -95px -250px;}
+    52% { background-position: -175px -250px;}
+    54% { background-position: -95px -250px;}
+    56% { background-position: -15px -250px;} /* 1.4 */
+    /* 被ダメ 勝利 */
+    58% { background-position: -335px -170px;} /* 5.3 */
+    66% { background-position: -255px -250px; } /* 4.4 */
+    /* 走り */
+    70% { background-position: -15px -250px; transform: scale(1, 1);} /* 1.4 */
+    72% { background-position: -95px -250px;}
+    74% { background-position: -175px -250px;}
+    76% { background-position: -95px -250px;}
+    78% { background-position: -15px -250px;} /* 1.4 */
+    /* 被ダメ 勝利 */
+    80% { background-position: -335px -170px;} /* 5.3 */
+    89% { background-position: -255px -250px;} /* 4.4 */
+    /* 回転 */
+    92% { background-position: -15px -10px;} /* 1.1 */
+    93% { background-position: -335px -10px;} /* 5.1 */
+    94% { background-position: -95px -90px;} /* 2.2 */
+    95% { background-position: -335px -10px; transform: scale(-1, 1);} /* 5.1 */
+    97% { background-position: -15px -10px;} /* 1.1 */
+    99% { background-position: -175px -10px;} /* 3.1 */
+}
+
+.char-dojo {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-position: -10px -10px;
+    margin: 0 0 0 0px;
+    animation: dojo 4s steps(1) infinite;
+}                      
+@keyframes dojo {
+    0% { background-position: -10px -250px;  transform: scale(-1, 1);} /*4,5*/
+    20% { background-position: -250px -170px;} /*4,5*/
+    25% { background-position: -330px -170px;} /*4,5*/
+    30% { background-position: -250px -170px;} /*4,5*/
+    35% { background-position: -330px -170px;} /*4,5*/
+    60% { background-position: -330px -250px;} /*4,5*/
+    90% { background-position: -330px -90px; } /*4,5*/
+}
+.dojo-slide {
+    transition-duration: 2s;
+    margin-top: 0px;
+    margin-left: 0px;
+    animation: dojoslide 4s infinite;
+}
+@keyframes dojoslide {
+    0% { transform:translateX(0%)}
+    10% { transform:translateX(15%);}
+    50% { transform:translateX(25%);}
+    90% { transform:translateX(25%);}
+    100% { transform:translateX(0%)}
+}
+
+.char-damage {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 0px;
+    animation: damage 0.4s steps(1) infinite alternate;
+}            
+@keyframes damage {
+    0% { background-position: -250px -250px;}
+    25% { background-position: -248px -250px;}
+    75% { background-position: -250px -250px;}
+    100% { background-position: -250px -250px;}
+}
+
+.char-dot-front {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 0px;
+    animation: front 0.4s steps(1) infinite alternate;
+}
+@keyframes front {
+    0% { background-position: -10px -10px;}
+}
+.char-dot-kamae {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 0px;
+    animation: kamae 0.4s steps(1) infinite alternate;
+}
+@keyframes kamae {
+    0% { background-position: -320px -90px;}
+}
+.char-dot-kime {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 0px;
+    animation: kime 0.4s steps(1) infinite alternate;
+}
+@keyframes kime {
+    0% { background-position: -330px -170px;}
+}
+.char-dot-down {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 0px;
+    animation: down 0.4s steps(1) infinite alternate;
+}
+@keyframes down {
+    0% { background-position: -10px -330px;}
+}
+
+
+
+
+/****************************************
+ ** new 
+ ****************************************/
+ .char-dot-base {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 0px;
+}
+.char-pause-front1 {
+    background-position: 0px 0px;
+}
+.char-pause-front2 {
+    background-position: -80px 0px;
+}
+.char-pause-front3 {
+    background-position: -160px 0px;
+}
+.char-pause-side1 {
+    background-position: -240px 0px;
+}
+.char-pause-side2 {
+    background-position: -320px 0px;
+}
+.char-pause-side3 {
+    background-position: 0px -80px;
+}
+.char-pause-back1 {
+    background-position: -80px -80px;
+}
+.char-pause-back2 {
+    background-position: -160px -80px;
+}
+.char-pause-back3 {
+    background-position: -240px -80px;
+}
+.char-pause-kamae1 {
+    background-position: -320px -80px;
+}
+.char-pause-kamae2 {
+    background-position: 0px -160px;
+}
+.char-pause-eisho1 {
+    background-position: -80px -160px;
+}
+.char-pause-eisho2 {
+    background-position: -160px -160px;
+}
+.char-pause-hatsudo {
+    background-position: -240px -160px;
+}
+.char-pause-sentaku {
+    background-position: -320px -160px;
+}
+.char-pause-hashiri1 {
+    background-position: 0px -240px;
+}
+.char-pause-hashiri2 {
+    background-position: -80px -240px;
+}
+.char-pause-hashiri3 {
+    background-position: -160px -240px;
+}
+.char-pause-damage {
+    background-position: -240px -240px;
+}
+.char-pause-hinshi {
+    background-position: -320px -240px;
+}
+.char-pause-kizetsu {
+    background-position: 0px -320px;
+}
+
+/*　画面サイズ〜320pxはここを読み込む　*/
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .char-dot-base {
+        top: -15px;
+        left: -15px;
+    }
+}
+/*　画面サイズが321pxからはここを読み込む　*/
+@media screen and (min-width:321px) and ( max-width:767px) { 
+    .char-dot-base {
+        top: -10px;
+        left: -10px;
+    }
+}
+/*　画面サイズが768pxから1024pxまではここを読み込む　*/
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    .char-dot-base {
+        top: -9px;
+    }
+}
+
+/*　画面サイズが1024pxからはここを読み込む　*/
+@media screen and (min-width:1024px) {
+    .char-dot-base {
+        top: -9px;
+    }
+}
+
+.char-stup {
+    animation: stup 1.3s steps(1);
+    animation-fill-mode: forwards;
+}
+.char-stup2 {
+    animation: stup2 1.3s steps(1);
+    animation-fill-mode: forwards;
+}
+@keyframes stup {
+    0% { background-position: 0px 0px;} /* 1.1 */
+    5% { background-position: 0px 0px;} /* 1.1 */
+    10% { background-position: -320px 0px; transform: scale(-1, 1);} /* 5.1 */
+    15% { background-position: -80px -80px;} /* 2.2 */
+    20% { background-position: -320px 0px; transform: scale(1, 1);} /* 5.1 */
+    25% { background-position: -320px -160px} /* 5.3 */
+}         
+@keyframes stup2 {
+    0% { background-position: 0px 0px;} /* 1.1 */
+    5% { background-position: 0px 0px;} /* 1.1 */
+    10% { background-position: -320px 0px; transform: scale(-1, 1);} /* 5.1 */
+    15% { background-position: -80px -80px;} /* 2.2 */
+    20% { background-position: -320px 0px; transform: scale(1, 1);} /* 5.1 */
+    25% { background-position: -320px -160px} /* 5.3 */
+}
+.char-stmiss {
+    animation: stmiss 1.3s steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes stmiss {
+    0% { background-position: 0px 0px;} /* 1.1 */
+    5% { background-position: 0px 0px;} /* 1.1 */
+    10% { background-position: -320px 0px; transform: scale(-1, 1);} /* 5.1 */
+    15% { background-position: -80px -80px;} /* 2.2 */
+    20% { background-position: -320px 0px; transform: scale(1, 1);} /* 5.1 */
+    25% { background-position: -320px -240px} /* 5.4 */
+}
+
+.char-winner2 {
+    animation: winner2 1s steps(1);
+    animation-fill-mode: forwards;
+}
+.char-loser2 {
+    animation: loser2 1s steps(1);
+    animation-fill-mode: forwards;
+}        
+
+@keyframes winner2 {
+     0% { background-position: 0px -80px;} /* 1.1 */
+    10% { background-position: 0px -80px;} /* 1.1 */
+    20% { background-position: -320px -80px;} /* 5,2 */
+    60% { background-position: -80px -80px;} /* 2.2 */
+    70% { background-position: -320px 0px; transform: scale(-1, 1);} /* 5.1 */
+    80% { background-position: 0px 0px; transform: scale(1, 1);} /* 1.1 */
+    90% { background-position: -320px -160px} /* 5.3 */
+    100% { background-position: -320px -160px} /* 5.3 */
+}
+
+.char-aruku-left2 {
+    animation: left-aruki2 0.6s steps(1) infinite alternate;
+}            
+@keyframes left-aruki2 {
+    0% { background-position: -240px 0px;}
+    25% { background-position: -320px 0px;}
+    75% { background-position: 0px -80px;}
+    100% { background-position: 0px -80px;}
+}
+@keyframes loser2 {
+    0% { background-position: 0px 0px;} /* 1.1 */
+    5% { background-position: 0px 0px;} /* 1.1 */
+    10% { background-position: -320px 0px;} /* 5.1 */
+    15% { background-position: -80px -80px;} /* 2.2 */
+    20% { background-position: -320px 0px; transform: scale(-1, 1);} /* 5.1 */
+    25% { background-position: 0px 0px; transform: scale(1, 1);} /* 1.1 */
+    30% { background-position: -320px 0px;} /* 5.1 */
+    35% { background-position: -80px -80px;} /* 2.2 */
+    40% { background-position: -320px 0px; transform: scale(-1, 1);} /* 5.1 */
+    45% { background-position: 0px 0px; transform: scale(1, 1);} /* 1.1 */
+    50% { background-position: -320px 0px;} /* 5.1 */
+    55% { background-position: -80px -80px;} /* 2.2 */
+    60% { background-position: -320px 0px;} /* 5.1 */
+    61% { background-position: -320px -240px} /* 1.1 */
+    100% { background-position: -320px -240px} /* 1.1 */
+}
